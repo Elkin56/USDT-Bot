@@ -1,0 +1,16 @@
+{
+  "name": "tether-rates-miniapp",
+  "version": "1.0.0",
+  "description": "Telegram Mini App: курс USDT/RUB с Rapira, BestChange (Самара, Москва) и ZOEX",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "demo": "node -e \"console.log('Откройте http://localhost:3000/?demo=1')\" && node server.js",
+    "test": "node test/run.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}

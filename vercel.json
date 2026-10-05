@@ -1,0 +1,8 @@
+{
+  "buildCommand": "",
+  "outputDirectory": "public",
+  "functions": {
+    "api/*.js": { "maxDuration": 20 }
+  },
+  "regions": ["fra1"]
+}
